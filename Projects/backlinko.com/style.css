@@ -1,0 +1,592 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 24px;
+}
+
+header .logo {
+    margin-left: 100px;
+}
+
+header .nav {
+    margin-right: 100px;
+   
+}
+
+header .nav a {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(236, 236, 236));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fw {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 700px;
+    display: flex;
+    margin-top: 30px;
+    padding: 16px;
+   
+}
+
+.main .fw .we h2 {
+    color: #00d07e;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+
+.main .fw .fwe h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.main .fw .pic {
+    display: flex;
+    background-color: white;
+    border: 1px solid rgb(160, 160, 160);
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+   
+}
+
+.main .fw .pic img {
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+
+.main .fw .pic p {
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .fw .em {
+    padding: 10px;
+    margin: 40px;
+}
+
+
+.main .fw .em input  {
+   height: 55px;
+   font-size: 20px;
+   border-radius: 8px;
+   border: 1px solid rgb(180, 180, 180);
+   margin-right: -22px;
+   padding: 10px;
+}
+
+.main .fw .em button {
+    height: 55px;
+    width: 140px;
+    background-color: #00d07e;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main .fw .em button:hover{
+    background-color:#00a161 ;
+}
+
+.seo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: 50px;
+
+}
+
+.seostart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -60px;
+}
+
+.seostart .right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.seostart .right img {
+    width: 550px;
+    border-radius: 8px;
+}
+
+.seostart .right .imgi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+.seostart .right .imgi p {
+    font-weight: lighter;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+}
+
+.seostart .right .imge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -376px;
+    margin-top: -18px;
+    
+}
+
+.seostart .right .imge img {
+    width: 30px;
+    height: 30px;
+}
+
+.seostart .right .imge p {
+    font-family: sans-serif;
+    margin-left: 10px;
+    
+}
+
+.seostart .right .imge p .sm {
+    text-decoration: underline;
+}
+
+.seostart .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.seostart .left .cards {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: -80px;
+    
+    
+}
+
+.seostart .left .cards .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.seostart .left .cards img {
+    width: 180px;
+    border-radius: 8px;
+}
+
+.seostart .left .cards p {
+    margin-left: 12px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.editor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: -110px;
+   
+}
+
+.editor .picks {
+    width: 100%;
+}
+
+.editor .picks .texthead {
+    font-family: sans-serif;
+    margin-left: 69px;
+    
+}
+
+.editor .picks .texthead h2 {
+    font-size: 50px;
+}
+
+
+
+.editor .picks .texthead p {
+    font-weight: lighter;
+    
+}
+
+.editor .picks .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px 45px 0px 45px;
+
+    
+}
+
+.editor .picks .cards .leftcard .card1 {
+    display: flex;
+    margin: 20px;
+    
+}
+
+.editor .picks .cards .leftcard .card1 img {
+     width: 180px;
+}
+
+.editor .picks .cards .leftcard .card1 p {
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+
+.editor .picks .cards .rightcard .card1 {
+    display: flex;
+    margin: 20px;
+    
+}
+
+.editor .picks .cards .rightcard .card1 img {
+     width: 180px;
+}
+
+.editor .picks .cards .rightcard .card1 p {
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.waveimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boxe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.boxe .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    width: 800px;
+    height: 400px;
+    border: 2px solid rgb(129, 129, 129);
+}
+
+.boxe .box .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+
+
+.boxe .box .text h4{
+    color:#00d07e;
+    font-size: 20px;
+}
+
+.boxe .box .text h1 {
+    font-weight: bolder;
+    font-size: 44px;
+}
+
+.boxe .box .text h2 {
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.boxe .box .serchbu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(133, 133, 133);
+    padding: 4px;
+}
+
+.boxe .box .serchbu input {
+     width: 370px;
+     height: 50px;
+     border: none;
+     font-size: 40px;
+     outline: none;
+}
+
+.boxe .box .serchbu svg {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+   
+    }
+
+    .boxe .box .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxe .box .logos img {
+        width: 100px;
+    } 
+    
+    .boxe .box .logos p {
+        color: rgb(124, 124, 124);
+    }
+
+
+
+    .editors {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        margin-top: 50px;
+       
+    }
+    
+    .editors .picks {
+        width: 100%;
+    }
+    
+    .editors .picks .texthead {
+        font-family: sans-serif;
+        margin-left: 69px;
+        
+    }
+    
+    .editors .picks .texthead h2 {
+        font-size: 50px;
+    }
+    
+    
+    
+    .editors .picks .texthead p {
+        font-weight: lighter;
+        
+    }
+    
+    .editors .picks .cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px 45px 0px 45px;
+    
+        
+    }
+    
+    .editors .picks .cards .leftcard .card1 {
+        display: flex;
+        margin: 20px;
+        
+    }
+    
+    .editors .picks .cards .leftcard .card1 img {
+         width: 180px;
+    }
+    
+    .editors .picks .cards .leftcard .card1 p {
+        font-family: sans-serif;
+        margin-left: 20px;
+        font-weight: bolder;
+    }
+    
+    
+    .editors .picks .cards .rightcard .card1 {
+        display: flex;
+        margin: 20px;
+        
+    }
+    
+    .editors .picks .cards .rightcard .card1 img {
+         width: 180px;
+    }
+    
+    .editors .picks .cards .rightcard .card1 p {
+        font-family: sans-serif;
+        margin-left: 20px;
+        font-weight: bolder;
+    }
+
+    .blainkoresources {
+        width: 100%;
+      background-color: rgb(241 241 241);
+        display: flex;
+        justify-content: center;
+    }
+
+    .blainkoresources .br {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        height: 450px;
+        display: flex;
+        border-radius: 8px;
+        margin-top: 40px;
+        padding: 10px;
+       
+        }
+
+    .blainkoresources .br .section1 {
+        width: 100%;
+        background-image: url(img/img21.jpeg);
+        background-size: contain;
+        border-radius: 8px;
+      
+        
+    }
+    .blainkoresources .br .section2 {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        font-size: 20px;
+        font-family: sans-serif;
+        margin-left: 20px;
+       
+    }
+
+    .blainkoresources .br .section2 h2 {
+        font-size: 20px;
+        color: rgb(80, 80, 255);
+    }
+
+
+
+    .blainkoresources .br .section3 {
+        width: 100%;
+       margin-left: 20px;
+        background-color: white;
+        font-family: sans-serif;
+    }
+
+    .blainkoresources .br .section3 .sec {
+                display: flex;
+                align-items: center;
+                color: rgb(0, 0, 0);
+                font-family: sans-serif;
+                margin: -18px;
+    }
+
+    .blainkoresources .br .section3 h2 {
+        font-size: 19px;
+        color: rgb(80, 80, 255);
+    }
+        
+
+   .pgmp {
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: rgb(241 241 241) ;
+   
+   }
+
+   .footer{
+  
+    
+    background-color: #1d2b35;
+    height: 384px;
+    margin-top: 90px;
+    font-family: sans-serif;
+    
+}
+.box1{
+    display: flex;
+    padding-top: 50px;
+    
+    justify-content: space-around;
+
+}
+.box2{
+   
+    margin-left: 50px;
+    
+    
+}
+.box1-gap1{
+   
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.box3-gap1{
+    display: flex;
+}
+.box3-gap1 p{
+    color: gray;
+    
+}
+.hr hr{
+    color: grey;
+    margin-left:  40px;
+    margin-right: 40px;
+}
